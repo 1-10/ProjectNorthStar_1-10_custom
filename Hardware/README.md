@@ -3,7 +3,7 @@
 ## はじめに
 このフォルダには下記のファイルが含まれています
 - ProjectNorthStar_1-10_custom: CADデータ
-- ProjectNorthStar_1-10_custom_BOM.xlsx: 部品用
+- ProjectNorthStar_1-10_custom_BOM.xlsx: 部品表
 
 ![](/Hardware/imgs/ProjectNorthStar_1-10_custom.png_drawing.png)
 

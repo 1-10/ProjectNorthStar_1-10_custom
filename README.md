@@ -8,9 +8,17 @@ This is a custom / remix version of the PROJECT NORTH STAR oridinated from LeapM
 ![](/Hardware/imgs/ProjectNorthStar_1-10_custom.png)
 
 ## 変更点 / Modification
-- ディスプレイを3.81inch AMOLED(H380BDNO1.1)に変更 / Changed display to 3.81inch AMOLED(H380BDNO1.1)
-- 基板固定パーツの追加 / Added circuit board fasterner
-- 装飾パーツの追加 / Added outer shell
+- ディスプレイを3.81inch AMOLED(H380BDNO1.1)に変更
+
+  Changed display to 3.81inch AMOLED(H380BDNO1.1)
+  
+- 基板固定パーツの追加
+
+  Added circuit board fasterner
+  
+- 装飾パーツの追加
+
+  Added outer shell
 
 ## ライセンス / Licenses
 - [leap Motion社 ProjectNorthStar](https://github.com/leapmotion/ProjectNorthStar/blob/master/LICENSE): GNU General Public License v3.0
@@ -19,5 +27,9 @@ This is a custom / remix version of the PROJECT NORTH STAR oridinated from LeapM
 
 
 ## ファイル構成 / Project files
-- hardware: フレームのstepデータ 及び 部品表 / STEP data of the frame and parts list
-- Software: セットアップ用Unityプロジェクト 及び 使用方法 / An instructions and unity project for setting up the device
+- hardware: フレームのstepデータ 及び 部品表
+
+  STEP data of the frame and parts list
+- Software: セットアップ用Unityプロジェクト 及び 使用方法
+  
+  An instructions and unity project for setting up the device

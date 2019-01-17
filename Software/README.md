@@ -45,6 +45,7 @@
 6. Game Viewを表示する
    
    Click 'Move Game View to Headset' button. 
+   
    ![](/Software/imgs/Game_View.png)
 
    North側の画面
@@ -96,21 +97,36 @@
 
 
 ## 最適化 / Optimization
-キャリブレーション終了後、Ray計算は必要ないので、L,R EyeCameraのAR RayTracerを切る / The AR RayTracer of L,R EyeCamera can be turned off since it won't be necessory after the calibration.
+キャリブレーション終了後、Ray計算は必要ないので、L,R EyeCameraのAR RayTracerを切る
 
-その代わりキャリブレーションが出来なくなるので注意 / Please note that you can't do calibration again
+The AR RayTracer of L,R EyeCamera can be turned off since it won't be necessory after the calibration.
 
-これで240FPSまで出せる(ディスプレイ基板は90FPSなので十分) / By now you can reach 240 FPS. (This is sufficient, since the display module's refresh rate is only 90 FPS.)
+その代わりキャリブレーションが出来なくなるので注意
+
+Please note that you can't do calibration again
+
+これで240FPSまで出せる(ディスプレイ基板は90FPSなので十分)
+
+By now you can reach 240 FPS. (This is sufficient, since the display module's refresh rate is only 90 FPS.)
 
 ![](/Software/imgs/AR_RayTracer.png)
 
-Leapを長時間稼働していると輝度補正で手が出てこなくなることがある。 / Operating the LeapMotion for long period of time may cause a malfunction, inwhich your hands won't be displayed on adjusting brightness.
+Leapを長時間稼働していると輝度補正で手が出てこなくなることがある。
 
-その時はロバストモードを切ると改善されることが多い / This behavior can be often solved by turning off the Robust-mode
+Operating the LeapMotion for long period of time may cause a malfunction, inwhich your hands won't be displayed on adjusting brightness.
 
-タスクバーからleapの設定を開いてLeapコントロールパネルを開き、切る / From the Task bar, open the LeapMotion setting control panel, turn the Robust mode off. 
+その時はロバストモードを切ると改善されることが多い
+
+This behavior can be often solved by turning off the Robust-mode
+
+タスクバーからleapの設定を開いてLeapコントロールパネルを開き、切る
+
+From the Task bar, open the LeapMotion setting control panel, turn the Robust mode off. 
 
 ![](/Software/imgs/robust.png)
 
-それでも治らない場合タスクマネージャからLeapサービス再起動 / If it doesn't solve the problem, restart LeapMotion service. 
+それでも治らない場合タスクマネージャからLeapサービス再起動
+
+If it doesn't solve the problem, restart LeapMotion service. 
+
 ![](/Software/imgs/task_manager.png)
